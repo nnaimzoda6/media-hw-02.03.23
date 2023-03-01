@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.all-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10%;
+    align-items: center;
+}
+.div-1 {
+    display: flex;
+}
+.div-2 {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 36%;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+select {
+    background-color: #147E45;
+    color: #fff;
+    border-radius: 5px;
+}
+.all{
+    display: flex;
+}
+.all-2{
+    width: 80%;
+    padding: 15% 10%;
+}
+.all-2-1{
+    align-items: center;
+    display: flex;
+}
+button img{
+    width: 80%;
+    height: 5vh;
+    border: 10px;
+}
+.all-2-1  button{
+    background-color: #a4a3a3;
+    border-radius: 50px;
+    border: none;
+}
+.a2-2{
+    width: 100%;
+    padding: 10% 9%;
+
+}
+.box{
+    padding: 5% 0;
+    width: 80%;
+    height: 30vh;
+    justify-content: space-between;
+}
+.one h4{
+   padding-left: 20px;
+}
+.one{
+    padding-bottom: 20px;
+    display: flex;
+}
+.container{
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-1{
+    width: 40%; 
+}
+.container-2{
+    width: 40%;
+}
+.box3{
+    margin-top: 15px;
+}
+.container-1 button{
+    margin-top: 40px;
+}
+.tovari{
+    width: 80%;
+    padding: 5% 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.tovar{
+    width: 100%;
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.tovar-1{
+    width: 60%;
+    display: flex;
+    margin-top: 25px;
+}
+.texxt1{
+    width: 50%;
+    padding: 0 5px;
+}
+.texxt1 h1{
+    font-size: 25px;
+}
+.texxt1 h5{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #4F5665;
+}
+.tovar-2{
+    width: 60%;
+    display: flex;
+    margin-top: 25px;
+}
+.tovar-3{
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+}
+.texxt2{
+    width: 80%;
+    padding:  0 15px;
+}
+.texxt2 h1{
+    font-size: 25px;
+}
+.texxt2 h5{
+    font-size: 15px;
+    /* margin-top: 10px; */
+    color: #4F5665;
+}
+.fotto2{
+    margin-left: 50px;
+}
+.texxt2{
+    width: 80%;
+    padding: 0 5px;
+}
+.korzina{
+    width: 70%;
+    border-radius: 10px;
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 63px rgba(165, 165, 165, 0.25);
+    border-radius: 10px
+}
+.korzina1{
+    width: 50%;
+    font-size: 25px;
+}
+.korzina1 p{
+    margin-top: 20px;
+}
+.korzina2{
+    width: 40%;
+    text-align: center;
+    margin-top: 65px;
+}
+.oxir{
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.oxir1{
+    width: 40%;
+    display: flex;
+}
+.oxir2{
+    width: 20%;
+    line-height: 20px;
+}
+.oxir3{
+    height: 10vh;
+    width: 20%;
+    line-height: 20px;
+}
+hr{
+    border: 2px solid #EEEFF2;
+    margin: 20px 0;
+}
+.nane{
+    display: none;
+}
+@media  (max-width:500px){
+    body{
+        border: 1px solid red;
+    }
+    .all{
+        display: block;
+
+    }
+    .all-div{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 5%;
+    }
+    select{
+        padding: 10px 3px;
+        box-shadow: 0px 4px 20px rgba(13, 77, 42, 0.33);
+    }
+    .container{
+        display: block;
+        width: 100%;
+    }
+    .container-1, .container-2{
+        width: 100%;
+    }
+    .tovar{
+        display: block;
+    }
+    .div-2{
+        width: auto;
+
+    }
+    .all-2{
+        padding: 15% 5%;
+    }
+    .all-2-1 button{
+        display: none;
+    }
+    .d_nan{
+        display: none;
+    }
+    .korzina{
+        display: block;
+    }
+    .korzina1, .container2{
+        width: 100%;
+    }
+    .korzina2{
+        margin: 0;
+    }
+    .oxir{
+        display: block;
+    }
+    .oxir1, .oxir2, .oxir3{
+        width: 100%;
+    }
+    .nane{
+        display: block;
+        font-size: 22px;
+    }
+    .a2-2{
+        width: auto;
+    }
+    .nane_1{
+        display: none;
+    }
+    .fs_16{
+        font-size: 16px;
+    }
+    .fs_14{
+        font-size: 14px;
+    }
+    .container{
+        width: auto;
+    }
+}
+    
